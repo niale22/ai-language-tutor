@@ -12,7 +12,6 @@ app.get('/', (req, res) => {
   res.send('Server is running. Use POST /api/chat');
 });
 
-// AI chat route
 app.post('/api/chat', async (req, res) => {
   const { message, targetLanguage = 'English' } = req.body || {};
   if (!message) return res.status(400).json({ error: 'message is required' });
