@@ -16,5 +16,8 @@
     "url": "https://github.com/niale22/ai-language-tutor/issues"
   },
   "homepage": "https://github.com/niale22/ai-language-tutor#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
